@@ -8,7 +8,7 @@ void swap(int* value1, int* value2) {
     
     *value2 = temp;
     
-   
+    
 }
 
 
@@ -16,12 +16,6 @@ void swap(int* value1, int* value2) {
 
 int main(int argc, char const *argv[]) {
     
-    if (argc > 2) {
-        
-        std::cout << "Bad input.\n";
-        return 1;
-        
-    }
     
     
     int firstNumber = atoi(argv[1]);
@@ -29,7 +23,7 @@ int main(int argc, char const *argv[]) {
     
     swap(&firstNumber, &secondNumber);
     
-    std::cout << firstNumber << secondNumber;
+    std::cout << firstNumber << " " << secondNumber << std::endl;
     
     return 0;
     
