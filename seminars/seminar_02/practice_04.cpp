@@ -39,7 +39,7 @@ int main(int argc, char const *argv[]) {
     
     const char* str1 = "-103";
     
-    std::cout << "str 1 + 1 = " << (atoi(str1) + 1) << std::endl;
+    std::cout << "str 1 + 1 = " << (atoi(str1)) << std::endl;
     
     return 0;
     
